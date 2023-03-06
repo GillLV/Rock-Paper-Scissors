@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title> A Game of Rock, Paper Scissors</title>
+    <link rel="stylesheet"  href="style.css">
 </head>
 <body>
-
-<script src="script.js"></script>
+<h1>Think you can beat the computer in a game of rock paper scissors?</h1> 
+<h2 class = "info-tag" >Take your pick between rock, paper, and scissors. Best to five wins. </h2>
+<div class = "frame-row" >
+    <div class = "frame" id = "frame-player"> </div>
+    <h2 class = "vs-text" > VS.</h2>
+    <div class = "frame" id = "frame-computer"> </div>
+</div>
+<div id = button-row>
+    <button class = "options" id = "rock" type = "button"> Rock </button>
+    <button class = "options" id = "paper" type = "button"> Paper </button>
+    <button class = "options" id = "scissors" type = "button"> Scissors </button>
+</div>
+<div class = result>  
+</div>
+<div class = scores>
+    <h2 id = "player-score">0</h2>
+    <h2 id = "computer-score">0</h2>
+</div>
+<button class = "reset"> Play Again </button>
 </body>
+<script src="script.js"></script>
 </html>
